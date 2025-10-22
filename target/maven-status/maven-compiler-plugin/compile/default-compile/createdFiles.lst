@@ -1,5 +1,0 @@
-com/example/demo/DemoApplication.class
-com/example/demo/model/AbsenceEntity.class
-com/example/demo/service/AbsenceService.class
-com/example/demo/controller/AbsenceController.class
-com/example/demo/repository/AbsenceRepository.class
