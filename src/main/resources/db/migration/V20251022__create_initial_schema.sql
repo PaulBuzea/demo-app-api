@@ -8,6 +8,7 @@ CREATE TABLE IF NOT EXISTS absence.absences (
     end_date DATE NOT NULL,
     reason VARCHAR(500) NOT NULL,
     comments TEXT,
+    feedback TEXT,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );

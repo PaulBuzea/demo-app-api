@@ -1,4 +1,4 @@
-package com.example.demo.model;
+package com.example.demo.model.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -38,6 +38,9 @@ public class AbsenceEntity {
 
     @Column(columnDefinition = "TEXT")
     private String comments;
+
+    @Column(columnDefinition = "TEXT")
+    private String feedback;
 
     @CreationTimestamp
     @Column(name = "created_at", updatable = false)
